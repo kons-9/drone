@@ -8,7 +8,7 @@ for i = 0:T_end/Ts+1;
     t = i*Ts;
     if t>5;
         Data(i,1) =1;
-        Data(i,2)=0.5;
+%         Data(i,2)=0.5;
         Data(i,3) = -1;   % Z
         Data(i,4) = 0;      % Yaw
 %         Data(i,5) = 0.1;
