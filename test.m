@@ -18,3 +18,8 @@ figure();
 C=C*(-g)/s^2;
 H=P_x*C/(1+P_x*C+s*D_x*C)
 pzplot(H);
+close();clear;
+close();clear;
+fig=openfig('sim.fig');
+fig.Color('white')
+saveas(fig,'xsim.pdf');
