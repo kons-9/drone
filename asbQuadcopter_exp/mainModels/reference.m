@@ -49,5 +49,9 @@ ans = timeseries(single(Data), time, 'Name', 'command');
 
 save('ref.mat', 'ans');
 
+sim('asbQuadcopter.slx');
+writeAnimation('dronesimvideo.gif');
+
+
 % ホーム/環境/基本設定/Matlab/一般/MATファイル からVersion 7.3を選択
 % https://jp.mathworks.com/help/matlab/import_export/mat-file-versions.html
